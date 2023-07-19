@@ -1,0 +1,108 @@
+.home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #f0f0f4;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #628A4B;
+    color: #f0f0f0;
+  }
+  
+  .about h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #302f2abf;
+    height: 50px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+  }
+  
+  .about .prompt {
+    width: 90%;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  }
+  
+  .homeimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+  }
+  
+  .image {
+    width: 100%;
+    margin-right: 250px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills h1 {
+    color:#628A4B;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+    color:#628A4B;
+  }
+  
+  .list span {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
