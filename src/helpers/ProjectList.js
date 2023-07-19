@@ -6,6 +6,8 @@ export const ProjectList = [
     name: "Movie Fanatics",
     image: Proj1,
     skills: "JavaScript,HTML,CSS",
+    githubLink: "https://github.com/DHenry24/team-project",
+
   },
   {
     name: "The Yum-Yum Blog",

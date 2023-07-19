@@ -1,8 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-function ProjectItem({ image, name, id }) {
+function ProjectItem({ image, name, id, githubLink }) {
     const navigate = useNavigate();
+
+    const handleClick = () => {
+        window.open(githubLink, "_blank"); 
+      };
+    
+
     return (
         <div
             className="projectItem"

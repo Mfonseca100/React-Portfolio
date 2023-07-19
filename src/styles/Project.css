@@ -4,12 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color:#628A4B !important;
     flex-direction: column;
 }
 
 .projects .projectTitle {
     text-align: center;
-    color: #3e497a;
+    color:#628A4B !important;
     font-size: 60px;
     font-weight: bolder;
 }
@@ -22,7 +23,7 @@
     place-items: center;
 }
 
-/* MENU ITEM STYLING */
+
 
 .projectItem {
     border-radius: 15px;
@@ -51,6 +52,7 @@
 
 .projectItem h1 {
     font-size: 25px;
+    color:#628A4B !important;
 }
 
 @media only screen and (max-width: 1300px) {
