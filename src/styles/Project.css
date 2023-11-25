@@ -4,13 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#628A4B !important;
+    background-color: rgb(255, 255, 255);
     flex-direction: column;
 }
 
 .projects .projectTitle {
     text-align: center;
-    color:#628A4B !important;
+    color:#000000;
     font-size: 60px;
     font-weight: bolder;
 }
@@ -52,7 +52,7 @@
 
 .projectItem h1 {
     font-size: 25px;
-    color:#628A4B !important;
+    color:#010d2f;
 }
 
 @media only screen and (max-width: 1300px) {
